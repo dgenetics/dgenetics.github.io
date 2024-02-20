@@ -86,18 +86,27 @@ nav.small-nav {
 }
 
 
-.big-projects .project_link:hover {
+.project_link:hover {
 	color: #BDB76B !important;
 	transition: all .2s;
 	border: 1px solid #BDB76B;
 }
 
-a.project_link {
+.project_link {
 	color: #555 !important;
 	transition: color .5s;
 	border: 1px solid #e1e1e1;
 	border-radius: 10px;
 	padding: 25px 10px 10px 10px;
+}
+
+.small-projects .project_link {
+	border: none;
+}
+
+.small-projects .project_link:hover {
+	color: #BDB76B !important;
+	transition: all .2s;
 }
 
 nav a:link, a:visited, nav a:active, footer a:visited, footer a:active {
