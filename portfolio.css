@@ -86,7 +86,7 @@ nav.small-nav {
 }
 
 
-a.project_link:hover {
+.big-projects .project_link:hover {
 	color: #BDB76B !important;
 	transition: all .2s;
 	border: 1px solid #BDB76B;
@@ -95,7 +95,7 @@ a.project_link:hover {
 a.project_link {
 	color: #555 !important;
 	transition: color .5s;
-	border: 1px solid white;
+	border: 1px solid #e1e1e1;
 	border-radius: 10px;
 	padding: 25px 10px 10px 10px;
 }
@@ -143,6 +143,7 @@ a.project_link {
 
 .container {
 	padding-top: 200px;
+	padding-bottom: 30px;
 }	
 
 h1 {
@@ -159,7 +160,7 @@ h3 {
 
 div#bio {
 	font-size: 16px;
-	margin: 10px 0px 70px 0px;
+	margin: 10px 0px 35px 0px;
 	padding: 0px 20px;
 }
 
@@ -244,11 +245,7 @@ li {
 	
 	h2 {
 		font-size: 26px;
-	}
-
-	div#bio {
-		margin-bottom: 40px;
-	}		
+	}	
 
 }
 
@@ -311,9 +308,7 @@ li {
 		font-size: 32px;
 	}
 	
-	div#bio {
-		margin-bottom: 70px;
-	}	
+
 }
 
 /* Large Devices, Desktops */
